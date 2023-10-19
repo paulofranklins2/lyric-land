@@ -1,0 +1,72 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* images and videos max out at full width */
+img,
+video {
+    height: auto;
+    max-width: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+pre {
+    white-space: pre-line;
+    font-family: 'Mooli', sans-serif;
+}
+
+.albumPhoto {
+    display: inline-flex;
+    align-items: center;
+}
+
+.albumPhoto img {
+    max-width: 30%;
+    max-height: 30%;
+    width: 50%;
+}
+
+.albumPhoto h2 {
+    text-align: right;
+    width: 50%
+}
+
+footer {
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
